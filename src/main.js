@@ -1,5 +1,11 @@
 import { createApp } from 'vue'
-import './style.css'
-import App from './App.vue'
+import VuePancakeIcons from 'vue-pancake-icons'
+import App from '@/App.vue'
+import router from "@/router"
 
-createApp(App).mount('#app')
+import "@/styles/index.css"
+
+const app = createApp(App)
+app.use(router)
+app.use(VuePancakeIcons)
+app.mount('#app')
