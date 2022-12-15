@@ -7,7 +7,7 @@ export default {
 
 <template>
   <div class="card">
-    <p class="ml-4 text-3xl">
+    <p class="ml-4 text-3xl text-red-800">
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
     </p>
