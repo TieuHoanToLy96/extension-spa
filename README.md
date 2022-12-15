@@ -4,6 +4,6 @@ make bash -> npm install
 make app
 
 # plugin
-Tailwind
-Vuetify
-VuePanacakeIcons ([Demo](https://tieuhoan.dev))
+Tailwind <br />
+Vuetify <br />
+VuePanacakeIcons ([Demo](https://tieuhoan.dev)) <br />
