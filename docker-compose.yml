@@ -1,8 +1,8 @@
 version: '3.0'
 services:
-   english-test:
+   vue-template:
     build: . 
-    container_name: english_test
+    container_name: vue-template-basic
     command: npm run dev
     volumes:
       - .:/app:cached

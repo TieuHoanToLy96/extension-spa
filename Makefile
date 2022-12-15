@@ -2,4 +2,4 @@ app:
 	docker compose -f docker-compose.yml down; docker compose -f docker-compose.yml  up;
 
 bash:
-	docker compose run english-test bash
+	docker compose run vue-template bash
