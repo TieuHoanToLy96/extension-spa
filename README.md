@@ -1,6 +1,6 @@
 # Vue-template-basic
 # Install
-make bash -> npm install
+make bash -> npm install <br />
 make app
 
 # plugin
