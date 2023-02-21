@@ -1,0 +1,25 @@
+.custom-modal
+  @apply w-[95%] h-[90%] p-0 #{!important}
+  @apply 2xl:w-[85%] #{!important}
+  ::-webkit-scrollbar
+    width: 4px !important
+    height: 4px !important
+    display: block
+
+  ::-webkit-scrollbar-thumb
+    border-radius: 4px
+
+  .ant-modal-content
+    @apply h-full flex flex-col
+    .ant-modal-body
+      @apply flex-1 p-0
+  .ant-modal-header
+    border-bottom: 1px solid #dedede !important
+
+  .ant-divider-vertical
+    border-color: #dedede
+  .ant-input-number-handler-wrap
+    @apply opacity-100
+
+  .ant-drawer-mask
+    background: #f0f0f073
